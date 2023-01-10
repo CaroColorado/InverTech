@@ -13,6 +13,7 @@ body {
   color: #0095a8;
   font-family: 'Open Sans', sans-serif;
   justify-content: center;
+  
 }
 
 div.container {
@@ -91,6 +92,12 @@ label.wide {
   display: flex;
   align-items: center;
   padding: 3px;
+  justify-content: center;
+}
+
+.small-row > div.radio-control {
+  /* background: red; */
+  padding: 1rem 2rem
 }
 
 div.radio-control {
@@ -104,7 +111,8 @@ div.radio-control {
 }
 
 .justify-sb {
-  justify-content: space-between;
+  /* justify-content: space-around; */
+  display: flex;
 }
 
 textarea {
